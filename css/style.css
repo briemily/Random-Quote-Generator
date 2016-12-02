@@ -1,0 +1,118 @@
+body {
+  background-image: url(http://shushi168.com/data/out/255/37826886-white-background-image.png);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#box {
+  background-color: #212F3D;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  position: absolute;
+}
+
+#relative {
+   position: relative;
+}
+
+h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+
+#author {
+  text-align: right;
+}
+
+h2 {
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 30px;
+}
+
+#quoteSymLeft {
+  color: #566573;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #7F8C8D;
+  tex-align: center;
+  padding: 20px;
+  vertical-align: middle;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  position: absolute;
+  top: -15%;
+  left: -8%;
+  z-index: 1;
+  font-size: 3em;
+}
+
+#quoteSymRight {
+  color: #566573;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #7F8C8D;
+  text-align: center;
+  padding: 20px;
+  vertical-align: middle;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  position: absolute;
+  bottom: -15%;
+  right: -8%;
+  z-index: 1;
+  font-size: 3em;
+}
+
+#randomBtn {
+  color: #27AE60;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #7F8C8D;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  vertical-align: middle;
+  position: absolute;
+  left: 3%;
+  top: 80%;
+  font-size: 2.5em;
+  line-height: 1;
+  outline: 0;
+}
+
+#tweetBtn {
+  color: #5499C7;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #7F8C8D;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  vertical-align: middle;
+  position: absolute;
+  left: 15%;
+  top: 80%;
+  font-size: 2.5em;
+  line-height: 1;
+  outline: 0;
+}
+
+#randomBtn:hover {background-color: #D7DBDD;}
+
+#tweetBtn:hover {background-color: #D7DBDD;}
+
+@media only screen and (max-width: 500px) {
+  h1 {font-size: 20px;}
+  #box {margin-top: 90px;}
+  #tweetBtn {font-size: 25px;
+    left: 28%;
+  top: 87%}
+  #randomBtn {font-size: 25px;
+  top: 87%}
+  #quoteSymLeft {font-size: 25px;}
+  #quoteSymRight {font-size: 25px;}
+}
